@@ -1,0 +1,13 @@
+package it.unipd.mtss;
+
+//////////////////////////////////////////////////////////////////// 
+// VLAD MIHAI PANAIT 	2111949
+// GIOELE MARZOLA 		2113193 
+////////////////////////////////////////////////////////////////////
+public class App 
+{
+    public static void main( String[] args )
+    {
+        System.out.println( "Hello World!" );
+    }
+}
