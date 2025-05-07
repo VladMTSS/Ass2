@@ -5,11 +5,9 @@ package it.unipd.mtss;
 // GIOELE MARZOLA 		2113193 
 ////////////////////////////////////////////////////////////////////
 
-package it.unipd.mtss;
 
-import org.junit.jupiter.api.Test;
-import static org.junit.jupiter.api.Assertions.assertEquals;
-import static org.junit.jupiter.api.Assertions.assertThrows;
+import org.junit.Test;
+import static org.junit.Assert.assertEquals;
 
 public class RomanPrinterTest {
     @Test
@@ -19,8 +17,4 @@ public class RomanPrinterTest {
         assertEquals("  _____   _____   _____ \n |_   _| |_   _| |_   _|\n   | |     | |     | |  \n   | |     | |     | |  \n  _| |_   _| |_   _| |_ \n |_____| |_____| |_____|\n", RomanPrinter.print(3));
     }
 }
-
-git add src/test/java/it/unipd/mtss/IntegerToRomanTest.java
-
-git addsrc/test/java/it/unipd/mtss/RomanPrinterTest.java
 
