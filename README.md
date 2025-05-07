@@ -1,7 +1,7 @@
 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
 # Roman Number Project
 
-![Build Status](https://img.shields.io/github/actions/workflow/status/VladMTSS/Ass2/roman-number/maven.yml?branch=develop)
+[![Coverage Status](https://coveralls.io/repos/github/VladMTSS/Ass2/badge.svg?branch=develop)](https://coveralls.io/github/VladMTSS/Ass2?branch=develop)
 
 ## Descrizione
 Progetto che converte numeri arabi in numeri romani.
