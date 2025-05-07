@@ -5,21 +5,19 @@ package it.unipd.mtss;
 // GIOELE MARZOLA 		2113193 
 ////////////////////////////////////////////////////////////////////
 
-import static org.junit.Assert.assertTrue;
+package it.unipd.mtss;
 
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
+import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertThrows;
 
-/**
- * Unit test for simple App.
- */
-public class AppTest 
-{
-    /**
-     * Rigorous Test :-)
-     */
+public class IntegerToRomanTest {
     @Test
-    public void shouldAnswerWithTrue()
-    {
-        assertTrue( true );
+    public void testConvert() {
+        assertEquals("I", IntegerToRoman.convert(1));
+        assertEquals("II", IntegerToRoman.convert(2));
+        assertEquals("III", IntegerToRoman.convert(3));
+
     }
 }
+
